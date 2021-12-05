@@ -1,0 +1,16 @@
+{
+  "name": "nacl-mpv-plugin",
+  "version": "0.1.0",
+  "main": "index.js",
+  "devDependencies": {
+    "electron-cmake-js": "^0.1.2"
+  },
+  "scripts": {
+    "configure": "rimraf build && electron-cmake-js configure -d . --CDPEPPER_VERSION=49 --C-DNAC_SDK_DIR=./libraries/nacl_sdk --CDTHIRD_PARTY_DIR=./libraries",
+    "build": "electron-cmake-js build -d ."
+  },
+  "dependencies": {
+    "electron": "^16.0.4",
+    "rimraf": "^3.0.2"
+  }
+}

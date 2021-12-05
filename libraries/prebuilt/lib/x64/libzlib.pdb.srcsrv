@@ -1,0 +1,40 @@
+SRCSRV: ini ------------------------------------------------
+VERSION=2
+SRCSRV: variables ------------------------------------------
+RAWURL=https://raw.github.com/ShiftMediaProject/zlib.git/cbf12900bcfad0224f1641451b62f936d8673280/%var2%
+SRCSRVVERCTRL=https
+SRCSRVTRG=%RAWURL%
+SRCSRV: source files ---------------------------------------
+C:\projects\zlib\adler32.c*adler32.c
+C:\projects\zlib\compress.c*compress.c
+C:\projects\zlib\crc32.c*crc32.c
+C:\projects\zlib\deflate.c*deflate.c
+C:\projects\zlib\gzclose.c*gzclose.c
+C:\projects\zlib\gzlib.c*gzlib.c
+C:\projects\zlib\gzread.c*gzread.c
+C:\projects\zlib\gzwrite.c*gzwrite.c
+C:\projects\zlib\infback.c*infback.c
+C:\projects\zlib\inffast.c*inffast.c
+C:\projects\zlib\inflate.c*inflate.c
+C:\projects\zlib\inftrees.c*inftrees.c
+C:\projects\zlib\trees.c*trees.c
+C:\projects\zlib\uncompr.c*uncompr.c
+C:\projects\zlib\zutil.c*zutil.c
+C:\projects\zlib\contrib\minizip\ioapi.c*contrib/minizip/ioapi.c
+C:\projects\zlib\contrib\minizip\iowin32.c*contrib/minizip/iowin32.c
+C:\projects\zlib\contrib\minizip\unzip.c*contrib/minizip/unzip.c
+C:\projects\zlib\contrib\minizip\zip.c*contrib/minizip/zip.c
+C:\projects\zlib\crc32.h*crc32.h
+C:\projects\zlib\deflate.h*deflate.h
+C:\projects\zlib\inffast.h*inffast.h
+C:\projects\zlib\inffixed.h*inffixed.h
+C:\projects\zlib\inflate.h*inflate.h
+C:\projects\zlib\inftrees.h*inftrees.h
+C:\projects\zlib\trees.h*trees.h
+C:\projects\zlib\zlib.h*zlib.h
+C:\projects\zlib\zutil.h*zutil.h
+C:\projects\zlib\contrib\minizip\ioapi.h*contrib/minizip/ioapi.h
+C:\projects\zlib\contrib\minizip\unzip.h*contrib/minizip/unzip.h
+C:\projects\zlib\contrib\minizip\zip.h*contrib/minizip/zip.h
+C:\projects\zlib\SMP\zconf.h*SMP/zconf.h
+SRCSRV: end ------------------------------------------------
